@@ -35,7 +35,6 @@ namespace IParcial
             this.Numero2txt = new System.Windows.Forms.TextBox();
             this.Sumarbt = new System.Windows.Forms.Button();
             this.resultadolbl = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -89,21 +88,11 @@ namespace IParcial
             this.resultadolbl.Size = new System.Drawing.Size(0, 13);
             this.resultadolbl.TabIndex = 5;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(45, 206);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Resultado:";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.resultadolbl);
             this.Controls.Add(this.Sumarbt);
             this.Controls.Add(this.Numero2txt);
@@ -126,7 +115,6 @@ namespace IParcial
         private System.Windows.Forms.TextBox Numero2txt;
         private System.Windows.Forms.Button Sumarbt;
         private System.Windows.Forms.Label resultadolbl;
-        private System.Windows.Forms.Label label3;
     }
 }
 

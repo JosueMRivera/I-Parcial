@@ -16,6 +16,8 @@ namespace IParcial
         {
             InitializeComponent();
         }
+        //Variable Global
+        decimal sumatotal;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -31,11 +33,27 @@ namespace IParcial
             //Resultado de la suma
             decimal resultado = n1 + n2;
 
-            resultadolbl.Text = Convert.ToString(resultado);
-
             //Mensaje que muestra el resultado
             //MessageBox.Show("La suma es: " + resultado);
+            //resultadolbl.Text = Convert.ToString(resultado);
+
+            //Sumar(n1, n2);
+            sumatotal = Sumatoria(n1, n2);
+            MessageBox.Show("La suma es: " + sumatotal, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
+
+        // Procedimiento
+        private void Sumar(decimal num1, decimal num2) 
+        {
+            sumatotal = num1 + num2;
+        }
+
+        //Funcion
+        private decimal Sumatoria(decimal num1, decimal num2)
+        {
+            return num1 + num2;
+        }
+
     }
 }
