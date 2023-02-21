@@ -39,6 +39,12 @@ namespace IParcial
             this.label3 = new System.Windows.Forms.Label();
             this.semanatxt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.diacitatxt = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.diacita2txt = new System.Windows.Forms.TextBox();
+            this.restartxt = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.nuevafechatxt = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Fechatxt
@@ -123,11 +129,65 @@ namespace IParcial
             this.label4.TabIndex = 8;
             this.label4.Text = "Semana:";
             // 
+            // diacitatxt
+            // 
+            this.diacitatxt.Location = new System.Drawing.Point(196, 208);
+            this.diacitatxt.Name = "diacitatxt";
+            this.diacitatxt.Size = new System.Drawing.Size(107, 20);
+            this.diacitatxt.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(162, 215);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(28, 13);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Cita:";
+            // 
+            // diacita2txt
+            // 
+            this.diacita2txt.Location = new System.Drawing.Point(309, 208);
+            this.diacita2txt.Name = "diacita2txt";
+            this.diacita2txt.ReadOnly = true;
+            this.diacita2txt.Size = new System.Drawing.Size(180, 20);
+            this.diacita2txt.TabIndex = 12;
+            // 
+            // restartxt
+            // 
+            this.restartxt.Location = new System.Drawing.Point(196, 240);
+            this.restartxt.Name = "restartxt";
+            this.restartxt.Size = new System.Drawing.Size(107, 20);
+            this.restartxt.TabIndex = 14;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(150, 247);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(41, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Restar:";
+            // 
+            // nuevafechatxt
+            // 
+            this.nuevafechatxt.Location = new System.Drawing.Point(309, 240);
+            this.nuevafechatxt.Name = "nuevafechatxt";
+            this.nuevafechatxt.ReadOnly = true;
+            this.nuevafechatxt.Size = new System.Drawing.Size(180, 20);
+            this.nuevafechatxt.TabIndex = 15;
+            // 
             // Ejercicio_4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(627, 320);
+            this.Controls.Add(this.nuevafechatxt);
+            this.Controls.Add(this.restartxt);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.diacita2txt);
+            this.Controls.Add(this.diacitatxt);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.semanatxt);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.yeartxt);
@@ -139,7 +199,7 @@ namespace IParcial
             this.Controls.Add(this.ejecutartxt);
             this.Controls.Add(this.Fechatxt);
             this.Name = "Ejercicio_4";
-            this.Text = "Ejercicio_4";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,5 +217,11 @@ namespace IParcial
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox semanatxt;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox diacitatxt;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox diacita2txt;
+        private System.Windows.Forms.TextBox restartxt;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox nuevafechatxt;
     }
 }

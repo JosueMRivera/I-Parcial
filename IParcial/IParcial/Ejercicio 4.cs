@@ -26,6 +26,36 @@ namespace IParcial
             yeartxt.Text = fecha.ToString("yyyy");
             semanatxt.Text = fecha.ToString("dddd");
 
+            int numerodedias = Convert.ToInt32(diacitatxt.Text);
+            DateTime FechaActual = DateTime.Now;
+
+            int diasrestar = Convert.ToInt32(restartxt.Text);
+            diacita2txt.Text = FechaActual.AddDays(numerodedias).ToLongDateString();
+            nuevafechatxt.Text = fecha.AddDays(-diasrestar).ToLongDateString();
+
+            MessageBox.Show("La edad es: " + devolveredad(fecha));
+            devolveredad(fecha);
+
+        }
+
+        private int devolveredad(DateTime fechanacimiento)
+        {
+            DateTime fechaactual = DateTime.Now;
+            int edad;
+
+            if(fechanacimiento >= fechaactual)
+            {
+                return 0;
+            }
+            else
+            {
+                edad = fechaactual.Year - fechanacimiento.Year;
+                if (fechanacimiento.Month > fechaactual.Month)
+                {
+                    --edad;
+                }
+                return edad;
+            }
 
         }
     }
