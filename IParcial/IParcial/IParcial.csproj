@@ -76,6 +76,12 @@
     <Compile Include="Ejercicio 5.Designer.cs">
       <DependentUpon>Ejercicio 5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio 6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio 6.Designer.cs">
+      <DependentUpon>Ejercicio 6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ejercicio 1.resx">
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio 5.resx">
       <DependentUpon>Ejercicio 5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio 6.resx">
+      <DependentUpon>Ejercicio 6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

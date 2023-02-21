@@ -47,7 +47,6 @@ namespace IParcial
             decimal total = await sumarAsync(num1, num2);
 
             MessageBox.Show($"La suma es: {total}");
-            
         }
 
         private async Task<decimal> sumarAsync(decimal n1, decimal n2)
