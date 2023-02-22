@@ -36,7 +36,15 @@ namespace IParcial
             for(int i = 0; i < vector5.Length; i++)
             {
                 listBox1.Items.Add(vector5[i]);
+                
             }
+
+            foreach (string item in vector5)
+            {
+                comboBox1.Items.Add(item);
+            }
+
+
 
         }
     }

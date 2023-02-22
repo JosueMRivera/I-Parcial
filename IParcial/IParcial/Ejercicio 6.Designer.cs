@@ -31,6 +31,7 @@ namespace IParcial
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.arreglosbt = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // listBox1
@@ -51,11 +52,20 @@ namespace IParcial
             this.arreglosbt.UseVisualStyleBackColor = true;
             this.arreglosbt.Click += new System.EventHandler(this.arreglosbt_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(388, 26);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(181, 21);
+            this.comboBox1.TabIndex = 2;
+            // 
             // Ejercicio_6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.arreglosbt);
             this.Controls.Add(this.listBox1);
             this.Name = "Ejercicio_6";
@@ -68,5 +78,6 @@ namespace IParcial
 
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button arreglosbt;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
