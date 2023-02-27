@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using POO;
 
 namespace IParcial
 {
@@ -15,6 +16,14 @@ namespace IParcial
         public Ejercicio_9()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Coche miCoche = new Coche();
+
+            Coche miCoche2 = new Coche("Toyota", "22R");
+
         }
     }
 }
